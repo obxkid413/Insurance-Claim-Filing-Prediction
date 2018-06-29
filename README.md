@@ -1,2 +1,2 @@
 # Insurance-Claim-Filing-Prediction
-This code uses the Porto Seguro dataset from Kaggle and attempts to predict if a driver will file an insurance claim the following year.
+This code uses the Porto Seguro dataset from Kaggle and attempts to predict if a driver will file an insurance claim the following year.  The results were not great with a SVM model in trying to make a prediction.  Because the data was so imbalanced, it was tough to get a great prediction on the minority class (those that purchased an insurance policy).  The best F1 score I could achieve was about .10.
